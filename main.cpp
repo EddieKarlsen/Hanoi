@@ -95,7 +95,6 @@ int main() {
             delete hanoi;
             hanoi = nullptr;
             break;
-            break;
         case 5:
             delete hanoi;
             return 0;
