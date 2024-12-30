@@ -36,6 +36,15 @@ public:
         delete temp;
     }
 
+    void print() {
+        Node* current = top;
+        while (current != nullptr) {
+            std::cout << current->data << " ";
+            current = current->next;
+        }
+        std::cout << std::endl;
+    }
+
     int peek() {
         if (isEmpty()) {
             std::cout << "Pinnen är tom!" << std::endl;
