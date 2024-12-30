@@ -1,5 +1,5 @@
 PROG = main.exe 
-SRC = main.cpp, Stack.h
+SRC = main.cpp Stack.h
 CFLAGS = -g -std=c++17
 LIBS = 
 CC=g++
